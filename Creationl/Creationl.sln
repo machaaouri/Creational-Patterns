@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Builder", "Builder\Builder.vcxproj", "{3CDB8790-43CC-4339-A48D-2CCCFB4AB749}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FacetBuilder", "FacetBuilder\FacetBuilder.vcxproj", "{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{3CDB8790-43CC-4339-A48D-2CCCFB4AB749}.Release|x64.Build.0 = Release|x64
 		{3CDB8790-43CC-4339-A48D-2CCCFB4AB749}.Release|x86.ActiveCfg = Release|Win32
 		{3CDB8790-43CC-4339-A48D-2CCCFB4AB749}.Release|x86.Build.0 = Release|Win32
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Debug|x64.ActiveCfg = Debug|x64
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Debug|x64.Build.0 = Debug|x64
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Debug|x86.ActiveCfg = Debug|Win32
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Debug|x86.Build.0 = Debug|Win32
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Release|x64.ActiveCfg = Release|x64
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Release|x64.Build.0 = Release|x64
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Release|x86.ActiveCfg = Release|Win32
+		{634CA4F9-7CC5-47A7-BE20-8BCD19F4DACF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
