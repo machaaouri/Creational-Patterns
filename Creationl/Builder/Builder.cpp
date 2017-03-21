@@ -92,12 +92,12 @@ int main()
 	cout << builder.str() << endl;
 	/*
 	<Book>
-	<Reference>
-	X001
-	</Reference>
-	<Title>
-	Women
-	</Title>
+	  <Reference>
+	    X001
+	  </Reference>
+	  <Title>
+	    Women
+	  </Title>
 	</Book>
 	*/
 
