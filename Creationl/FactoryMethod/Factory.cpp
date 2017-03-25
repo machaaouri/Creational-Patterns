@@ -13,6 +13,20 @@ class Point
 public:
 	float x, y;
 
+	friend std::ostream& operator<<(std::ostream& os, const Point& obj)
+	{
+		return os
+			<< "x : " << obj.x
+			<< " y : " << obj.y;
+
+	}
+
+	friend class PointFactory;
+};
+
+class PointFactory
+{
+public:
 	static Point Cartesian(const float x, const float y)
 	{
 		return{ x,y };
@@ -22,22 +36,14 @@ public:
 	{
 		return{ r*cos(theta),r*sin(theta) };
 	}
-
-	friend std::ostream& operator<<(std::ostream& os, const Point& obj)
-	{
-		return os
-			<< "x : " << obj.x
-			<< " y : " << obj.y;
-
-	}
 };
 
 int main()
 {
-	auto c = Point::Cartesian(2, 3);
+	auto c = PointFactory::Cartesian(2, 3);
 	std::cout << c << std::endl;
 
-	auto p = Point::Polar(5, M_PI_4);
+	auto p = PointFactory::Polar(5, M_PI_4);
 	std::cout << p << std::endl;
 
 	getchar();
